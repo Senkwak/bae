@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #ff4d6d, #ff758f);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: #f8efe6;
+    width: 90%;
+    max-width: 900px;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    width: 55%;
+    color: #444;
+}
+
+.text p {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    min-height: 1.3em; /* évite les sauts */
+}
+
+.title {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.timer {
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.counter {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Signatures */
+.signature {
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.love {
+    color: #d6336c;
+}
+
+.author {
+    text-align: right;
+    font-style: italic;
+}
+
+/* Arbre cœur */
+.tree {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heart {
+    width: 160px;
+    height: 160px;
+    background: red;
+    position: relative;
+    transform: rotate(-45deg);
+    animation: pulse 1.5s infinite;
+}
+
+.heart::before,
+.heart::after {
+    content: "";
+    width: 160px;
+    height: 160px;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.heart::before {
+    top: -80px;
+    left: 0;
+}
+
+.heart::after {
+    left: 80px;
+    top: 0;
+}
+
+.trunk {
+    width: 25px;
+    height: 90px;
+    background: #7a4a2e;
+    margin-top: -5px;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1) rotate(-45deg); }
+    50% { transform: scale(1.05) rotate(-45deg); }
+    100% { transform: scale(1) rotate(-45deg); }
+}
