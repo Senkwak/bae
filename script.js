@@ -15,7 +15,7 @@ const messages = [
     { id: "line7", text: "mon sourire dans le silence," },
     { id: "line8", text: "et la plus belle chose que la vie m’ait donnée." },
 
-    { id: "line9", text: "Mon amour pour toi a commencé le 14 février 2025." },
+    { id: "line9", text: "Mon amour pour toi a commencé le 14 février 2026." },
 
     { id: "line10", text: "Pour toi, Esther Mawunyo AMOUZOU 💖" },
     { id: "line11", text: "Avec tout mon amour, GABIENU Kwaku Segnon" }
