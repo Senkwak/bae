@@ -1,5 +1,5 @@
 // 🔴 DATE DE DÉBUT DE LA RELATION (à modifier)
-const startDate = new Date(2025, 1, 14, 0, 0, 0);
+const startDate = new Date(2026, 1, 14, 0, 0, 0);
 
 // ✨ Message complet affiché par séquence
 const messages = [
